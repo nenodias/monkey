@@ -10,7 +10,6 @@ import (
 
 func main() {
 	user, err := user.Current()
-
 	if err != nil {
 		log.Fatal(err)
 	}
